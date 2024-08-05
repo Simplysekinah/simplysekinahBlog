@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <form action="" id="body">
+        <div>
+            <img src="bg" alt="" id="bg">
+        </div>
+        <div id="container">
+            <h3 class="head">Sign Up</h3>
+            <p class="mid">Please fill in this form to create an account.</p>
+            <br>
+            <hr>
+            <br>
+            <input type="Firstname" name="Firstname" id="Firstname" placeholder="Firstname" required>
+            <br>
+            <br>
+            <input type="Lastname" name="Lastname" id="Lastname" placeholder="Lastname" required>
+            <br>
+            <br>
+            <input type="email" name="Email" id="Email" placeholder="Email" required>
+            <br>
+            <br>
+            <input type="password" name="Password" id="Password" placeholder="Password" required>
+            <br>
+            <br>
+            <input type="password" name=" Confirm Password" id="Confirmpassword" placeholder="Confirm Password" required>
+            <div id="Rememberme">Already have an account <a href="login.html" id="log">LOGIN</a></div>
+            <br>
+            <br>
+            <button  onclick="signUp(event)" id="btn">SIGN UP</button>
+        </div>
+    </form>
+</body>
+<script src="signup.js"></script>
+</html>

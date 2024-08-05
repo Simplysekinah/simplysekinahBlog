@@ -1,0 +1,210 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(65,111,92);
+
+}
+#body{
+    margin: 0 auto;
+    width: 600px;
+    background-color: white;
+    height: 400px;
+    margin-top: 90px;
+    display: flex;
+    border-radius: 10px;
+}
+#container{
+    padding: 10px;
+    width: 70%;
+}
+.head{
+    display: flex;
+    justify-content: center;
+}
+.mid{
+    /* margin-left: 20px; */
+    margin-top: 8px;
+    font-size: 14px;
+}
+#Firstname{
+    width: 95%;
+    height: 30px;
+   border-radius: 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid darkgray;
+    padding-left: 5px;
+}
+#Lastname{
+    width: 95%;
+    height: 30px;
+   border-radius: 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid darkgray;
+    padding-left: 5px;
+}
+#Email{
+    width: 95%;
+    height: 30px;
+   border-radius: 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid darkgray;
+    padding-left: 5px;
+}
+#Password{
+    width: 95%;
+    height: 30px;
+   border-radius: 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid darkgray;
+    padding-left: 5px;
+}
+#Confirmpassword{
+    width: 95%;
+    height: 30px;
+   border-radius: 5px;
+    border: 0;
+    outline: none;
+    border: 1px solid darkgray;
+    padding-left: 5px;
+}
+#bg{
+    width: 90%;
+    height: 400px;
+    border-radius: 10px;
+}
+#btn{
+    width: 90px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    margin-top: -25px;
+    background-color: rgb(65,111,92);
+    border: 0;
+    border-radius: 5px;
+}
+#Rememberme{
+    margin-top: 8px;
+    font-size: 14px;
+}
+#log{
+    color: cadetblue;
+}
+.wel{
+    margin-top: 40px;
+}
+.mid1{
+    color: darkgrey;
+    font-size: 14px;
+}
+.forget{
+    color: darkgrey;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+}
+#btn1{
+    width: 90px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+    margin-top: 20px;
+    background-color: rgb(65,111,92);
+    border: 0;
+    border-radius: 5px;
+}
+.left{
+    width: 40%;
+    /* margin-top: 100px; */
+}
+.center{
+    width: 90%;
+    height: 400px;
+    overflow-x: scroll;
+    /* margin-top: 100px; */
+}
+.body1{
+    margin: 0 auto;
+    width: 800px;
+    background-color: white;
+    height: 500px;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#display{
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    /* justify-self: center; */
+    /* display: flex; */
+    /* align-items: center; */
+}
+#pic{
+    width: 100px;
+    height: 30px;
+    border-radius: 50%;
+}
+.pic1{
+    display: flex;
+}
+.like{
+    display: flex;
+    justify-content: space-between;
+}
+#like1, #edit, #logout{
+    width: 90px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65,111,92);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+}
+.bb{
+    display: flex;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.liking{
+    display: flex;
+    gap: 4px;
+}
+.like, .comment{
+    width: 70px;
+    /* height: 30px; */
+    color: rgb(65,111,92);
+}
+.liked{
+    color: red;
+}
+.image{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.main{
+    display: flex;
+    gap: 10px;
+}
+.main1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
